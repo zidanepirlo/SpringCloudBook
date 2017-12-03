@@ -8,6 +8,10 @@
     <packaging>pom</packaging>
     <version>1.0</version>
 
+    <properties>
+        <skipTests>true</skipTests>
+    </properties>
+
     <modules>
         <module>spring-boot-hello</module>
         <module>eureka-server</module>
@@ -54,8 +58,6 @@
         <module>zipkin-server-stream</module>
         <module>zipkin-server-stream-mysql</module>
 
-        <module>consul-client-1</module>
-        <module>api-gateway-consul</module>
     </modules>
 
 </project>
